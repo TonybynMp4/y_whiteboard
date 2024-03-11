@@ -1,6 +1,8 @@
 # qbx_whiteboard
 A whiteboard script for the Qbox Framework.
 Inspired by [qb-whiteboard](https://github.com/theMani-kh/qb-whiteboard).
+![](https://github.com/TonybynMp4/qbx_whiteboard/assets/97451137/58b86124-632f-43d8-9442-f9d761885694)
+
 
 ## Dependencies
 
