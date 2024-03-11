@@ -1,0 +1,11 @@
+{
+    "input": {
+        "title": "Whiteboard",
+        "url": "Image URL",
+        "reset": "Reset",
+        "reset_description": "Reset the whiteboard"
+    },
+    "target": {
+        "label": "Change image"
+    }
+}
