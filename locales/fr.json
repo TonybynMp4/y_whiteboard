@@ -1,0 +1,11 @@
+{
+    "input": {
+        "title": "Tableau blanc",
+        "url": "URL de l'image",
+        "reset": "Réinitialiser",
+        "reset_description": "Réinitialiser l'image"
+    },
+    "target": {
+        "label": "Changer l'image"
+    }
+}
