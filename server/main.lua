@@ -7,7 +7,7 @@ RegisterNetEvent('qbx_whiteboard:server:changewhiteboard', function(params, room
     if not config.rooms[roomId] then return end
 
     local player = exports.qbx_core:GetPlayer(source)
-    if config.rooms[roomId]?.jobs[player.job.name] and config.rooms[roomId]?.jobTypes[player.job.type] then return end
+    if not config.rooms[roomId]?.jobs[player.PlayerData.job.name] and not config.rooms[roomId]?.jobTypes[player.PlayerData.job.type] then return end
 
     TriggerClientEvent('qbx_whiteboard:client:changewhiteboard', -1, url, roomId, reset)
 end)
