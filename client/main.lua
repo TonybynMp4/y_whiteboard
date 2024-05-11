@@ -35,7 +35,7 @@ local function changeDuiUrl(roomId, url)
     SetDuiUrl(rooms[roomId].duiObject, url)
 end
 
-RegisterNetEvent("qbx_whiteboard:client:changewhiteboard", function(url, roomId, reset)
+RegisterNetEvent("y_whiteboard:client:changewhiteboard", function(url, roomId, reset)
     rooms[roomId].url = reset and nil or url
     if currentRoom and currentRoom == roomId then
         if reset then
@@ -93,7 +93,7 @@ CreateThread(function()
                         })
 
                         if input then
-                            TriggerServerEvent("qbx_whiteboard:server:changewhiteboard", input, k)
+                            TriggerServerEvent("y_whiteboard:server:changewhiteboard", input, k)
                         end
                     end,
                 },

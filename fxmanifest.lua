@@ -3,8 +3,8 @@ game 'gta5'
 
 author 'Tonybyn_Mp4'
 description 'Whiteboard script for the Qbox Framework'
-repository 'https://github.com/TonybynMp4/qbx_whiteboard'
-version '1.0.0'
+repository 'https://github.com/TonybynMp4/y_whiteboard'
+version '1.0.1'
 
 ox_lib 'locale'
 shared_script '@ox_lib/init.lua'
